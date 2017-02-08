@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/normal_view"
+        android:orderInCategory="100"
+        android:title="普通视图"
+        app:showAsAction="never"/>
+    <item android:id="@+id/satellite_view"
+        android:orderInCategory="101"
+        android:title="卫星视图"
+        app:showAsAction="never"/>
+    <item android:id="@+id/heat_show"
+        android:orderInCategory="102"
+        android:title="热视图"
+        app:showAsAction="never"/>
+    <item android:id="@+id/sou_show"
+        android:orderInCategory="103"
+        android:title="定位指定位置"
+        app:showAsAction="never"/>
+    <item android:id="@+id/search_show"
+        android:orderInCategory="104"
+        android:title="查询"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item android:id="@+id/find_show"
+                  android:orderInCategory="100"
+                  android:title="精准查询"/>
+            <item android:id="@+id/find2_show"
+                android:orderInCategory="101"
+                android:title="周边查询"/>
+        </menu>
+    </item>
+    <item android:id="@+id/sou_myself_show"
+        android:orderInCategory="104"
+        android:title="定位自身"
+        app:showAsAction="never"/>
+</menu>
